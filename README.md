@@ -1,15 +1,39 @@
-# Atividade-Padroes-de-Projeto
-Crie a representação gráfica (UML) e a implementação (qualquer linguagem) da aplicação de um dos padrões de projeto apresentados. (Chain of Responsibility)
+# Atividade — Padrões de Projeto
 
-Esse codigo foi adaptado para entar dentro do padrão comportamental (Chain of Responsibility), inicialmente ele foi feito para renomear arquivos baixados do site https://spotify-downloader.com/ , https://spotdownloader.com/.
+## Padrão Aplicado: Chain of Responsibility (Cadeia de Responsabilidade)
 
-Para executar o codigo, crie uma pasta chamada 'spotfy_playlist' dentro da pasta principal aonde esta o Chain of responsability.py.
+Este projeto demonstra a aplicação do padrão de projeto comportamental **Chain of Responsibility**.  
+Originalmente, o código foi criado para renomear arquivos de músicas baixadas dos sites:
 
-Dentro da pasta spotfy_playlist extraia o rar obtido no site https://spotify-downloader.com/ ou https://spotdownloader.com/ (baixe uma de suas playlists), apôs a extração dentro da pasta devem estar as suas musicas.
-Execute o Chain of responsability.py do mesmo local aonde ele esta.
+- [https://spotify-downloader.com/](https://spotify-downloader.com/)
+- [https://spotdownloader.com/](https://spotdownloader.com/)
 
-O codigo deve remover a propaganda do site [SPOTIFY-DOWNLOADER.COM], removera '_' e '-' e aplicara um espaço no lugar, tambem devera deixar o inicio das palavras com upper case.
+---
 
-Nota: Os sites de download podem sair do ar ou mudar de nome com o tempo. No arquivo "Validadores/site_name_handler.py", você pode adicionar regras específicas para lidar com esses novos nomes. Foi adicionado um regex para capturar padrões como "[...]", mas vale o aviso: não sabemos o que o futuro nos reserva, rsrs.
+## 💡 Como Executar
 
-Obg por ler S2.
+1. Crie uma pasta chamada `spotfy_playlist` no mesmo diretório onde está o arquivo `chain_of_responsibility.py`.
+2. Baixe uma playlist de um dos sites acima.
+3. Extraia o conteúdo `.rar` dentro da pasta `spotfy_playlist`. Após a extração, os arquivos de música devem estar diretamente dentro dessa pasta.
+4. Execute o script `chain_of_responsibility.py`.
+
+---
+
+## ✅ Funcionalidades
+
+- Remove a propaganda `[SPOTIFY-DOWNLOADER.COM]` dos nomes dos arquivos.
+- Substitui `_` e `-` por espaços.
+- Aplica capitalização em cada palavra do nome (formato *Title Case*).
+
+---
+
+## 🛠️ Observações
+
+Os sites de download podem sair do ar ou mudar de nome com o tempo.  
+No arquivo `Validadores/site_name_handler.py`, você pode adicionar regras personalizadas para tratar novos formatos ou domínios.
+
+Já foi implementada uma **expressão regular** que captura padrões como `"[...]"`, mas vale o aviso: não sabemos o que o futuro nos reserva — rsrs.
+
+---
+
+**Obrigado por ler ❤️**
