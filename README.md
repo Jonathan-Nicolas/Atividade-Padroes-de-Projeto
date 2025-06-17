@@ -5,7 +5,7 @@
 Este projeto demonstra a aplicação do padrão de projeto comportamental **Chain of Responsibility**.  
 Originalmente, o código foi criado para renomear arquivos de músicas baixadas dos sites:
 
-- [https://spotify-downloader.com/](https://spotify-downloader.com/)
+- [https://spotify-downloader.com/](https://spotify-downloader.com/) - antigo
 - [https://spotdownloader.com/](https://spotdownloader.com/)
 
 ---
